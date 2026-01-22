@@ -1,0 +1,91 @@
+# PowerShell Script Library .gitignore
+
+# Logs and Reports
+*.log
+*.csv
+*.html
+*.xml
+Logs/
+Reports/
+C:/Logs/
+C:/Reports/
+
+# Credentials and Secrets
+*.pfx
+*.p12
+*.pem
+*.key
+*credentials*
+*password*
+*secret*
+.env
+*.env
+config.json
+settings.json
+
+# Sensitive Configuration Files
+appsettings.json
+appsettings.*.json
+connectionstrings.config
+
+# Windows Temp Files
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+~$*
+
+# PowerShell Session Files
+*.pssc
+*.psd1.orig
+
+# Backup Files
+*.bak
+*.backup
+*~
+*.swp
+*.swo
+
+# IDE and Editor Files
+.vscode/
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mac OS Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+
+# Build Artifacts
+bin/
+obj/
+*.dll
+*.exe
+*.msi
+
+# Package Files
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Computer Lists (may contain sensitive info)
+computers.txt
+servers.txt
+workstations.txt
+
+# Email Configuration (may contain sensitive info)
+email-config.ps1
+smtp-config.ps1
+
+# Custom ignore patterns (user-specific)
+# Add your own patterns below this line
