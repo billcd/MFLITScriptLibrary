@@ -1,0 +1,3 @@
+[submodule "Claude-Notes"]
+	path = Claude-Notes
+	url = https://github.com/billcd/Claude-Notes.git
